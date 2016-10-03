@@ -1,0 +1,46 @@
+﻿Build started 05/03/2016 18:11:31.
+     1>Project "F:\Self_Practice\ObjectDetection\VehicleDetection\VehicleDetection.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\VehicleDetection.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OpenCV2.4.5\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(114): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(118): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(137): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(137): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(98): warning C4101: 'strCarFile' : unreferenced local variable
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(96): warning C4101: 'strImageSetFolder' : unreferenced local variable
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(97): warning C4101: 'strDetectedImageFile' : unreferenced local variable
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(88): warning C4101: 'strNegFile' : unreferenced local variable
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(238): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(257): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(279): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(279): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(318): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\direct.h(124) : see declaration of 'mkdir'
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(219): warning C4101: 'strDetectedImageFile' : unreferenced local variable
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(211): warning C4101: 'strNegFile' : unreferenced local variable
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(392): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\direct.h(124) : see declaration of 'mkdir'
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(502): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(521): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(544): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(544): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\vehicledetection\main.cpp(408): warning C4101: 'strNegFile' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Self_Practice\ObjectDetection\Debug\VehicleDetection.exe" /NOLOGO /LIBPATH:C:\OpenCV2.4.5\opencv\build\x86\vc10\lib opencv_calib3d245d.lib opencv_contrib245d.lib opencv_core245d.lib opencv_features2d245d.lib opencv_flann245d.lib opencv_gpu245d.lib opencv_haartraining_engined.lib opencv_highgui245d.lib opencv_imgproc245d.lib opencv_legacy245d.lib opencv_ml245d.lib opencv_nonfree245d.lib opencv_objdetect245d.lib opencv_photo245d.lib opencv_stitching245d.lib opencv_superres245d.lib opencv_ts245d.lib opencv_video245d.lib opencv_videostab245d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VehicleDetection.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Self_Practice\ObjectDetection\Debug\VehicleDetection.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Self_Practice\ObjectDetection\Debug\VehicleDetection.lib" /MACHINE:X86 Debug\Base.obj
+         Debug\main.obj
+         Debug\SubBase.obj
+         LINK : F:\Self_Practice\ObjectDetection\Debug\VehicleDetection.exe not found or not built by the last incremental link; performing full link
+         VehicleDetection.vcxproj -> F:\Self_Practice\ObjectDetection\Debug\VehicleDetection.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Self_Practice\ObjectDetection\Debug\VehicleDetection.exe;#1" /manifest Debug\VehicleDetection.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\VehicleDetection.unsuccessfulbuild".
+         Touching "Debug\VehicleDetection.lastbuildstate".
+     1>Done Building Project "F:\Self_Practice\ObjectDetection\VehicleDetection\VehicleDetection.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.68
