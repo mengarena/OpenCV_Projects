@@ -1,0 +1,39 @@
+﻿Build started 03/31/2014 13:53:09.
+     1>Project "E:\Self_Practice\ObjectDetection\FeatureStudy\FeatureStudy.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\FeatureStudy.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OpenCV2.4.5\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(56): warning C4101: 'strResultFile' : unreferenced local variable
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(55): warning C4101: 'nNumKeypoint2' : unreferenced local variable
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(44): warning C4101: 'strImageFile2' : unreferenced local variable
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(54): warning C4101: 'nNumKeypoint1' : unreferenced local variable
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(35): warning C4101: 't' : unreferenced local variable
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(170): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(252): warning C4244: '=' : conversion from '_off_t' to 'float', possible loss of data
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(253): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(261): warning C4244: '=' : conversion from '_off_t' to 'float', possible loss of data
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(262): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(332): warning C4244: '=' : conversion from '_off_t' to 'float', possible loss of data
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(333): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(341): warning C4244: '=' : conversion from '_off_t' to 'float', possible loss of data
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(342): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(294): warning C4101: 'strFilePathName' : unreferenced local variable
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(290): warning C4101: 'i' : unreferenced local variable
+     1>e:\self_practice\objectdetection\featurestudy\main.cpp(290): warning C4101: 'j' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Self_Practice\ObjectDetection\Debug\FeatureStudy.exe" /NOLOGO /LIBPATH:C:\OpenCV2.4.5\opencv\build\x86\vc10\lib opencv_calib3d245d.lib opencv_contrib245d.lib opencv_core245d.lib opencv_features2d245d.lib opencv_flann245d.lib opencv_gpu245d.lib opencv_haartraining_engined.lib opencv_highgui245d.lib opencv_imgproc245d.lib opencv_legacy245d.lib opencv_ml245d.lib opencv_nonfree245d.lib opencv_objdetect245d.lib opencv_photo245d.lib opencv_stitching245d.lib opencv_superres245d.lib opencv_ts245d.lib opencv_video245d.lib opencv_videostab245d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\FeatureStudy.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Self_Practice\ObjectDetection\Debug\FeatureStudy.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Self_Practice\ObjectDetection\Debug\FeatureStudy.lib" /MACHINE:X86 Debug\main.obj
+         Debug\OrbMatching.obj
+         LINK : E:\Self_Practice\ObjectDetection\Debug\FeatureStudy.exe not found or not built by the last incremental link; performing full link
+         FeatureStudy.vcxproj -> E:\Self_Practice\ObjectDetection\Debug\FeatureStudy.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Self_Practice\ObjectDetection\Debug\FeatureStudy.exe;#1" /manifest Debug\FeatureStudy.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\FeatureStudy.unsuccessfulbuild".
+         Touching "Debug\FeatureStudy.lastbuildstate".
+     1>Done Building Project "E:\Self_Practice\ObjectDetection\FeatureStudy\FeatureStudy.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.79
