@@ -1,0 +1,29 @@
+﻿Build started 05/03/2016 16:22:10.
+     1>Project "F:\Self_Practice\ObjectDetection\DetectMouth\DetectMouth.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\DetectMouth.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OpenCV2.4.5\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(42): error C2236: unexpected 'class' 'subbase'. Did you forget a ';'?
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(42): error C2143: syntax error : missing ';' before ':'
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(42): error C2059: syntax error : ':'
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(42): error C2059: syntax error : 'public'
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(42): error C2143: syntax error : missing ';' before '{'
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(42): error C2447: '{' : missing function header (old-style formal list?)
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(62): error C2061: syntax error : identifier 'subbase'
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(64): error C2248: 'Base::~Base' : cannot access private member declared in class 'Base'
+                 f:\self_practice\objectdetection\detectmouth\main.cpp(40) : compiler has generated 'Base::~Base' here
+                 f:\self_practice\objectdetection\detectmouth\main.cpp(37) : see declaration of 'Base'
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(112): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(141): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(143): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(143): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(144): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(144): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>f:\self_practice\objectdetection\detectmouth\main.cpp(164): warning C4018: '<' : signed/unsigned mismatch
+     1>Done Building Project "F:\Self_Practice\ObjectDetection\DetectMouth\DetectMouth.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.13
