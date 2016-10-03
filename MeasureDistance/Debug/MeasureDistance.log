@@ -1,0 +1,50 @@
+﻿Build started 02/07/2014 18:33:34.
+     1>Project "E:\Self_Practice\ObjectDetection\MeasureDistance\MeasureDistance.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MeasureDistance.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OpenCV2.4.5\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(58): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(90): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(122): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(159): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(215): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(247): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(281): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(341): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(373): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(407): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(471): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(503): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(537): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(601): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(633): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(667): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(1103): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(1104): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(1105): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(1211): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(1212): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(1213): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(1699): warning C4101: 'j' : unreferenced local variable
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(1966): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(1966): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(2003): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(2003): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\self_practice\objectdetection\measuredistance\main.cpp(2089): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Self_Practice\ObjectDetection\Debug\MeasureDistance.exe" /NOLOGO /LIBPATH:C:\OpenCV2.4.5\opencv\build\x86\vc10\lib opencv_calib3d245d.lib opencv_contrib245d.lib opencv_core245d.lib opencv_features2d245d.lib opencv_flann245d.lib opencv_gpu245d.lib opencv_haartraining_engined.lib opencv_highgui245d.lib opencv_imgproc245d.lib opencv_legacy245d.lib opencv_ml245d.lib opencv_nonfree245d.lib opencv_objdetect245d.lib opencv_photo245d.lib opencv_stitching245d.lib opencv_superres245d.lib opencv_ts245d.lib opencv_video245d.lib opencv_videostab245d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MeasureDistance.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Self_Practice\ObjectDetection\Debug\MeasureDistance.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Self_Practice\ObjectDetection\Debug\MeasureDistance.lib" /MACHINE:X86 Debug\main.obj
+         Debug\OrbMatching.obj
+         LINK : E:\Self_Practice\ObjectDetection\Debug\MeasureDistance.exe not found or not built by the last incremental link; performing full link
+         MeasureDistance.vcxproj -> E:\Self_Practice\ObjectDetection\Debug\MeasureDistance.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Self_Practice\ObjectDetection\Debug\MeasureDistance.exe;#1" /manifest Debug\MeasureDistance.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\MeasureDistance.unsuccessfulbuild".
+         Touching "Debug\MeasureDistance.lastbuildstate".
+     1>Done Building Project "E:\Self_Practice\ObjectDetection\MeasureDistance\MeasureDistance.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.36
